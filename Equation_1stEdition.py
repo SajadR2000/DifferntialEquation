@@ -80,14 +80,9 @@ class Equation:
 
     # TODO other parts of the object
 
-
+#Test
 # vc, vd
 eq = Equation([1, 1, -1, 1], [1, 1, 0, 0])
 # x0, b, y, h
 xp, yp = eq.equation_solver_rungekutta(0, 10, [1, 1], 0.01)
-#x1, y1 = eq.equation_solver_euler(0, 2, [1], 0.00001)
-#print(y1[len(y1) - 1])
-# print(yp[len(yp) - 1])
 painter(xp, yp)
-# painter(x1, y1)
-#y'' + 2 y' + 10y -x =0
